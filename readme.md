@@ -34,5 +34,7 @@ _setting.ini_
 ScreenSize=1920
 </pre>
 ## 시연
-![multiselect-demo](https://github.com/davidtheclark/gifs/blob/master/multiselect-demo.gif)
-![move-demo](https://github.com/davidtheclark/gifs/blob/master/move-demo.gif)
+##### InGame
+![demo1](https://github.com/RyuSeonghyun/TF-AutoPicker/blob/master/demo_gif/ingame.gif)
+##### Console
+![demo2](https://github.com/RyuSeonghyun/TF-AutoPicker/blob/master/demo_gif/console.gif)
