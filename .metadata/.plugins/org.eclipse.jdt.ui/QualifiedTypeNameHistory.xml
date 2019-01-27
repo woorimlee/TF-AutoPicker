@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="org.opencv.core.CvType"/>
+<fullyQualifiedTypeName name="org.opencv.core.Mat"/>
+<fullyQualifiedTypeName name="java.awt.image.DataBufferByte"/>
+<fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
+<fullyQualifiedTypeName name="java.awt.image.DataBuffer"/>
+<fullyQualifiedTypeName name="java.awt.image.DataBufferUShort"/>
+<fullyQualifiedTypeName name="java.nio.ShortBuffer"/>
+<fullyQualifiedTypeName name="java.awt.image.DataBufferShort"/>
+<fullyQualifiedTypeName name="java.nio.IntBuffer"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="org.opencv.imgcodecs.Imgcodecs"/>
+<fullyQualifiedTypeName name="org.opencv.core.MatOfByte"/>
+<fullyQualifiedTypeName name="java.awt.Graphics2D"/>
+<fullyQualifiedTypeName name="java.awt.image.DataBufferInt"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+</qualifiedTypeNameHistroy>

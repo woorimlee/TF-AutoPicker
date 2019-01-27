@@ -1,0 +1,27 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+ 
+public class IniFile {
+    public static final String filePath = ".\\";
+    public static String screenSize = "1920";
+
+    Properties prop = new Properties();
+    
+    public IniFile() throws IOException {
+    	ReadScreenSize();
+    	System.out.println("ScreenSize : " + screenSize);
+    }
+    
+    public void ReadScreenSize() throws IOException {
+    	prop.load(new FileInputStream(filePath+"setting.ini"));
+        screenSize = prop.getProperty("ScreenSize");
+    }
+
+	public void WriteIni() throws IOException{
+		prop.setProperty("ScreenSize", "test");
+        prop.store(new FileOutputStream(filePath+"setting.ini"), null);
+	}
+	
+}
