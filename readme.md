@@ -1,9 +1,11 @@
 # 정보
 **이 프로젝트는 학습용으로 제작되었습니다. 사용으로 인한 불이익의 책임은 당사자에게 있습니다.**<br>
-참조된 외부 라이브러리 : _JNativeHook2.1.0, OpenCV3.4.5_
+참조된 외부 라이브러리 :
+[_JNativeHook2.1.0_](https://github.com/kwhat/jnativehook),
+[_OpenCV3.4.5_](https://github.com/opencv/opencv)
 
-**OpenCV compareHistogram**을 사용하여 사용자화면의 카드와 미리 저장된 카드이미지(Blue.png, Gold.png...)를
-_Intersection_ 방식(값이 클수록 근사)으로 비교합니다.
+**OpenCV compareHistogram**을 사용하여 사용자화면의 카드와 미리 저장된 [카드이미지](https://github.com/RyuSeonghyun/TF-AutoPicker/tree/master/TwistedFate%20Card%20AutoPicker/img)를
+[_Intersection_](https://docs.opencv.org/3.4/d8/dc8/tutorial_histogram_comparison.html) 방식(값이 클수록 근사)으로 비교합니다.
 
 ## 사용법
 W를 눌러 스킬을 사용하고, 뽑고싶은 카드에 해당하는 키를 누르고있는다.
@@ -31,3 +33,6 @@ _setting.ini_
 [Setting]
 ScreenSize=1920
 </pre>
+## 시연
+![multiselect-demo](https://github.com/davidtheclark/gifs/blob/master/multiselect-demo.gif)
+![move-demo](https://github.com/davidtheclark/gifs/blob/master/move-demo.gif)
