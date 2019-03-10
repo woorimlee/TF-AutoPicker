@@ -21,14 +21,14 @@ BlueCard    [Caps Lock]
 1920x1080<br>
 2560x1440* (Default) 
 
-전체화면 또는 테두리없음 환경에서만 작동합니다.
+전체화면 또는 테두리없음 환경에서만 작동합니다.<br>
 1920x1080 해상도를 사용한다면 [setting.ini](https://github.com/RyuSeonghyun/TF-AutoPicker/blob/master/TwistedFate%20Card%20AutoPicker/setting.ini)파일을 수정해야합니다.
 <br><br>
 _setting.ini_
 <pre>
 #
-#Your resolution 1920x1080 => ScreenSize = 1920
-#		 2560x1080 => ScreenSize = 2560
+#Your ScreenSize 1920x1080 => ScreenSize = 1920
+#		 2560x1440 => ScreenSize = 2560
 #
 [Setting]
 ScreenSize=1920
